@@ -1,0 +1,32 @@
+
+* {
+    box-sizing: border-box;
+}
+
+
+.div-right-align {
+    
+    display: flex;
+    justify-self: end;
+    justify-content: center;
+    width: 350px;
+    height: 98vh;
+    
+}
+
+.section-advice {
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+
+.custom-card {
+    
+
+    height: 100px;
+    width: 100%;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+
